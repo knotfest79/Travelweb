@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Travel website</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Travel</a>
+        <div class="bx bx-menu" id="menu-icon">
+
+        </div>
+
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#places">Places</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="img/home1.jpg" alt="" > 
+                <div class="home-text">
+                    <span>Discover Now</span>
+                    <h1>Explore the <br>Beautiful Beach <br>of Italy </h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+
+            </div>
+            <div class="swiper-slide container">
+                <img src="img/home2.jpg" alt="" > 
+                <div class="home-text">
+                    <span>Discover Now</span>
+                    <h1>Explore the <br>Beautiful Beach <br>of Malta </h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide container">
+                <img src="img/home3.jpg" alt="" > 
+                <div class="home-text">
+                    <span>Discover Now</span>
+                    <h1>Explore the <br>Beautiful Beach <br>of Fiji </h1>
+                    <a href="#" class="btn">Explore</a>
+                </div>
+            </div>
+
+           
+          </div>
+          
+          <div class="swiper-pagination"></div>
+    </section>
+ <!-- Places -->
+    <section class="places" id="places">
+        <div class="heading">
+            <h1>Find the most<br>attractive places</h1>
+        </div>
+        <div class="places-container">
+            <div class="box">
+                <div class="place-img">
+                    <img src="img/places1.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Italy</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon'></i>
+            </div>
+
+            <div class="box">
+                <div class="place-img">
+                    <img src="img/places2.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Malta</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon'></i>
+            </div>
+
+            <div class="box">
+                <div class="place-img">
+                    <img src="img/places3.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Fiji</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon'></i>
+            </div>
+        </div>
+    </section>
+<!-- Video -->
+<section class="videos" id="videos">
+    <div class="heading">
+        <h1>Watch the most<br>attractive places</h1>
+    </div>
+    <div class="video-container">
+        <video src="video/video.mp4" muted autoplay loop></video>
+    </div>
+</section>
+<!-- About -->
+<section class="about" id="about">
+    <div class="about-text">
+        <h1>
+            we are commited to organize best tours</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br> 
+                has been the industry's standard dummy text ever since the 1500s, when an unknown printer <br>took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <br>
+                <a href="#" class="btn">Learn More</a>
+        
+    </div>
+    <div class="about-img">
+        <img src="img/about.jpg" alt="" width="350px" height="500px">
+    </div>
+</section>
+<!-- Footer -->
+<section class="footer">
+    <div class="footer-box">
+        <h2>Travel</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br> 
+            has been the industry's standard dummy text ever since the 1500s.</p>
+            <div class="social">
+                <a href ="#"><i class='bx bxl-facebook' ></i></a>
+                <a href ="#"><i class='bx bxl-twitter' ></i></a>
+                <a href ="#"><i class='bx bxl-instagram' ></i></a>
+                <a href ="#"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+    </div>
+
+    <div class="footer-box">
+        <h3>Services</h3>
+        <li><a href ="#">Product</a></li>
+        <li><a href ="#">Help & Support</a></li>
+        <li><a href ="#">Pricing</a></li>
+        <li><a href ="#">FAQ</a></li>
+    </div>
+    <div class="footer-box">
+        <h3>Offices</h3>
+        <li><a href ="#">Nepal</a></li>
+        <li><a href ="#">Australia</a></li>
+        <li><a href ="#">United States</a></li>
+        <li><a href ="#">Canada</a></li>
+    
+    </div>
+
+    <div class="footer-box">
+        <h3>Contact Us</h3>
+        <li><a href ="#">About us</a></li>
+        <li><a href ="#">Our Team</a></li>
+        <li><a href ="#">Our Blog</a></li>
+        <li><a href ="#">Customers</a></li>
+    </div>
+</section>
+
+<!-- Copyright -->
+<div class="copyright">
+<p>&#169; DevbhandariP.All Rights Reserved.</p>
+</div>
+
+
+
+
+
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Custom Js -->
+  <script src = "main.js"></script>
+
+</body>
+</html>
